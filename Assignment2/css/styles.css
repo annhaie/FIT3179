@@ -30,9 +30,12 @@ body {
 }
 
 .vis-container {
-    width: 50%;
     display: flex;
     justify-content: center;
+}
+
+.center {
+    
 }
 
 .description h2,
