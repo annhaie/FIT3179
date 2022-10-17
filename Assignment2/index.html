@@ -64,10 +64,25 @@
     <div class="pure-g">
       <div class="pure-u-1-2" >
         <div class="description description-left">
-          <h3>The Link Between Life Satisfaction and Income</h3>
+          <h3>Life Satisfaction and Income</h3>
           <p>[Insert text here].</p>
           <div id="vis3" class="vis-container"></div>
         </div>
+      </div>
+    </div>
+    
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="description description-right">
+          <h3>Happiness and Mental Illness</h3>
+          <p>The first column contains text and the second column contains a visualisation.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </p>
+        </div>
+      </div>
+      <div class="pure-u-1-2">
+        <div id="vis4" class="vis-container"></div>
       </div>
     </div>
     <!-- end pure grid group -->
@@ -78,6 +93,7 @@
     var specVis1 = "./Life_Satisfaction_General.json";
     var specVis2 = "./top10.json";
     var specVis3 = "./bubble_chart.json";
+    var specVis4 = "./correlation.json";
 
     vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -88,6 +104,10 @@
     }).catch(console.error);
     
     vegaEmbed('#vis3', specVis3, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    
+    vegaEmbed('#vis4', specVis3, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
