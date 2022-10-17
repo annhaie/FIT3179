@@ -3,6 +3,17 @@ body *{
 }
 
 h1 {
+    font-family: 'Merriweather';
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Merriweather';
+    font-weight: 900;
+}
+
+h3 {
+    font-family: 'Merriweather';
     font-weight: 900;
 }
 
