@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Partial Correlation between Hapiness and Mental Illness",
   "data": {
-    "url": "https://raw.githubusercontent.com/annhaie/FIT3179/main/correlation-mental-illness-and-life-satisfaction.csv"
+    "url": "https://raw.githubusercontent.com/annhaie/FIT3179/main/Assignment2/data/correlation-mental-illness-and-life-satisfaction.csv"
   },
   "width": 350,
   "mark": "bar",
