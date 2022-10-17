@@ -43,7 +43,7 @@
           "lookup": "properties.GU_A3",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/annhaie/FIT3179/main/happiness-cantril-ladder%20(1).csv"
+              "url": "https://raw.githubusercontent.com/annhaie/FIT3179/main/Assignment2/data/happiness-cantril-ladder%20(1).csv"
             },
             "key": "Code",
             "fields": ["LifeSatisfaction"]
