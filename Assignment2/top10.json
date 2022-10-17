@@ -29,7 +29,12 @@
             "order": "descending"
           }
         },
-        "color": {"value": "#4a7c59"}
+        "color": {"value": "#4a7c59"},
+        "tooltip": [
+          {"field": "Entity", "type": "nominal", "title": "Country"},
+          {"field": "Life Satisfaction", "type": "quantitative", "format": ","},
+          {"field": "rank", "type": "quantitative", "title": "Rank"}
+        ]
       }
     },
     {
@@ -55,10 +60,15 @@
           "sort": {
             "field": "Life Satisfaction",
             "op": "average",
-            "order": "descending"
+            "order": "ascending"
           }
         },
-        "color": {"value": "#c8d5b9"}
+        "color": {"value": "#c8d5b9"},
+        "tooltip": [
+          {"field": "Entity", "type": "nominal", "title": "Country"},
+          {"field": "Life Satisfaction", "type": "quantitative", "format": ","},
+          {"field": "rank", "type": "quantitative", "title": "Rank"}
+        ]
       }
     }
   ],
