@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Partial Correlation between Hapiness and Mental Illness",
+  "data": {
+    "url": "https://raw.githubusercontent.com/annhaie/FIT3179/main/correlation-mental-illness-and-life-satisfaction.csv"
+  },
+  "width": 350,
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Entity",
+      "type": "nominal",
+      "title": "Country",
+      "axis": {
+        "domain": false,
+        "ticks": false,
+        "labelAngle": 0,
+        "labelPadding": 4
+      }
+    },
+    "color": {"value": "#ddd"},
+    "x": {
+      "field": "HappinessMentalIllness",
+      "type": "quantitative",
+      "title": "Hapiness and Mental Illness",
+      "axis": {
+        "gridColor": {
+          "condition": {"test": "datum.value === 0", "value": "black"},
+          "value": "#ddd"
+        }
+      }
+    },
+    "tooltip": [
+      {
+        "field": "HappinessMentalIllness",
+        "type": "quantitative",
+        "title": "Hapiness and Mental Illness"
+      }
+    ]
+  },
+  "config": {"title": {"font": "sans-serif", "fontSize": 12}}
+}
