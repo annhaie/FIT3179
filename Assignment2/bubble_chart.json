@@ -6,7 +6,7 @@
     "text": "Life Satisfaction vs Income (2020)"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/annhaie/FIT3179/main/gdp-vs-happiness-transformed.csv"
+    "url": "https://raw.githubusercontent.com/annhaie/FIT3179/main/Assignment2/data/gdp-vs-happiness-transformed.csv"
   },
   "params": [
     {
